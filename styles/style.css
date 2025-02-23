@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    ;
+    font-style: normal;
+  }
+
+.bg {
+    background-color:  #F7F7F7;
+}
+
+/* universal Class */
+.title {
+    font-size: 3rem;
+}
+.center {
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hide {
+    display: none;
+}
+.button{
+    padding: 10px 40px;
+    border-radius: 7px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    background-color: black;
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+}
+.section-gap {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.div-gap {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.div-margin {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+
+
+
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+
+}
+
+.navitem {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-weight: 500;
+}
+.clr1 {
+    color: orange ;
+    font-family: "Quicksand", serif;   
+}
+.clr2 {
+    color: rgb(70, 187, 234) ;
+    font-family: "Quicksand", serif;
+}
+
+.clr3 {
+    color: #05D4DF ; font-family: "Quicksand", serif;
+}
+.clr4 {
+    color: #5D58EF ; font-family: "Quicksand", serif;
+}
+.navitem a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+ nav div > button {
+    padding: 10px 40px;
+    border-radius: 7px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    background-color: orange;
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+ }
+
+
+ /*  Empowering
+students from small age towards vision */
+.Empowering {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+}
+.towards-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.towards-vision  h1 {
+    font-size: 3rem;
+}
+.towards-vision  h5{
+    font-weight: 400;
+}
+
+/* 3rd patr */
+.box1 {
+    border-radius: 18px;
+    background-image: linear-gradient(to bottom, #DEF2FB , white);
+    width: 367px;
+    height: 480px;
+    display: grid;
+    text-align: center;    
+}
+.box2 {
+    border-radius: 18px;
+    background-image: linear-gradient(to bottom, #fbf1db , white);
+    width: 367px;
+    height: 480px;
+    display: grid;
+    text-align: center;    
+}
+.box3 {
+    border-radius: 18px;
+    background-image: linear-gradient(to bottom, #EBE0FB , white);
+    width: 367px;
+    height: 480px;
+    display: grid;
+    text-align: center;    
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+ 
+
+
+
+
+ /* small device */
+ 
+ @media only screen and (max-width: 576px) {
+
+    /* univarsal code  */
+    .flex{
+        display: grid;
+        justify-content: center;
+        gap: 24px;
+    }
+    .section-gap {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .div-gap {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .div-margin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+/* nav items  */
+    .hidden {
+        display: none;
+    }
+    .hide {
+        display: block;
+        list-style-type: none;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 30px;
+        
+    }
+    nav > div img {
+        height: 2rem;
+          }
+
+
+    li:hover .navitem {
+        display: grid;
+        gap: 0;
+        margin: 0;
+        margin-left: -70px;
+        list-style-type: none;
+        font-weight: 500;
+        padding: 0 20px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        position: absolute;
+        background-color: rgba(32, 30, 30, 0.295);
+        
+    }
+    li:hover > a{
+        background-color: #ececec;
+        border-radius: 8px;
+        padding: 7px;
+    }
+
+
+ /* Empowering */
+
+ .Empowering {
+    display: inline-block;
+    flex-direction: row-reverse;
+    
+    
+}
+.towards-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.towards-vision  h1 {
+    font-size: 2.5rem;
+    }
+.towards-vision h5, .button{
+    font-weight: 400;
+}
+.title{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+/* end of media query  */
+}
