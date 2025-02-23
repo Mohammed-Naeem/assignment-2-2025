@@ -13,6 +13,7 @@
 }
 
 /* universal Class */
+
 .title {
     font-size: 3rem;
 }
@@ -225,6 +226,31 @@ a {
     border-radius:10px 10px 0 0;
 }
 
+.footer {
+    background-color: rgb(67, 152, 217);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.flex1{
+    display: flex;
+    justify-content start;
+    align-items: center;
+    }
+.fc1{
+    display: block;
+    width: 400px;
+}
+.block {
+    display: grid;
+    gap: 30px;
+    list-style-type: none;
+    font-weight: 500;
+    
+}
 
 
 
