@@ -109,11 +109,16 @@ students from small age towards vision */
     display: grid;
     grid-template-columns: auto auto ;
     grid-gap: 20px;
+    align-items: center;
 }
 .towards-vision {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+}
+.towards-vision img {
+    margin: auto;
 }
 
 .towards-vision  h1 {
@@ -237,7 +242,7 @@ a {
 }
 .flex1{
     display: flex;
-    justify-content start;
+
     align-items: center;
     }
 .fc1{
